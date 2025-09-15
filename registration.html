@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="registration.css" rel="stylesheet">
+    <title>Registration Page</title>
+</head>
+<body id ="back">
+    <h1 id="changecolor">Registraion Page </h1><br/><br/>
+    
+    <form >
+        <label>Email : </label><br/>
+        <input onmouseover="funcemail()" type="text" placeholder="Enter your email"><br/><br/>
+
+        <label>First Name : </label><br/>
+        <input onmousemove="funcolor()" id="color1" type="text" placeholder="Enter your First Name"><br/><br/>
+
+        <label>Last Name : </label><br/>
+        <input type="text" placeholder="Enter your Last Name"><br/><br/>
+
+        
+        <label>Password : </label><br/>
+        <input type="password" placeholder="Enter Strong Password"><br/><br/>
+
+        <label>City : </label><br/>
+         <input type="text" placeholder="Enter your City "> <br/><br/>
+           
+        <label>Gender : </label><br/>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+
+
+        <br/><br/>
+        <label>Study Level : </label>
+        <select>
+            <option>PhD</option>
+            <option>Master</option>
+            <option>BA</option>
+        </select> <br/><br/>
+
+        <input onclick="funsave()" type="button" value="save">
+      
+    </form>
+   
+    <script src="registration.js"></script>
+</body>
+</html> 
+
+
